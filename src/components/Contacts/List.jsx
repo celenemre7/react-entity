@@ -8,7 +8,7 @@ function List() {
   const contacts = Object.values(contactsObj)
   
   return (
-    <div>
+    <div className="contact-list">
       {contacts.map((contact) => (
         <Item item={contact} key={contact.id}/>
       ))}
